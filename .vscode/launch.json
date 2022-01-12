@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Bat",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_bat.dart",
+            "args": [  "--flavor", "bat", "--target", "lib/main_bat.dart" ]
+        },
+        {
+            "name": "Launch Owl",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_owl.dart",
+            "args": [  "--flavor", "owl", "--target", "lib/main_owl.dart" ]
+        },
+        {
+            "name": "Launch Spider",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_spider.dart",
+            "args": [  "--flavor", "spider", "--target", "lib/main_spider.dart" ]
+        }
+    ]
+}
